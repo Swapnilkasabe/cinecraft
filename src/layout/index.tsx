@@ -1,11 +1,12 @@
 import { Box } from '@mui/material'
 import React, { ReactNode } from 'react'
+import Sidebar from '../components/sidebar'
 
 interface LayoutProps {
-    chidren: ReactNode
+  children: ReactNode
 }
 
-const Layout = ({chidren}: LayoutProps) => {
+const Layout = ({children}: LayoutProps) => {
   return (
     <Box
       sx={{
@@ -22,8 +23,10 @@ const Layout = ({chidren}: LayoutProps) => {
         height: "100vh",
       }}
     >
+      <Sidebar/>
+      <Box sx={{width:"100%", overflowY:"scroll"}}>{children}</Box>
     </Box>
-  )
+  ) 
 }
 
 export default Layout
