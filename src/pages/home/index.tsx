@@ -50,7 +50,7 @@ const Home = () => {
           onChange={handleSearch}
           startAdornment={
             <InputAdornment position="start">
-             <SearchIcon/>
+             <SearchIcon sx={{ color: "white" }}/>
             </InputAdornment>
           }
         />
