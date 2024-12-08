@@ -32,4 +32,4 @@ export const router = createBrowserRouter([
         element: <Bookmark/>,
         errorElement: <Error/>,
     }
-])
+], { basename: "/cinecraft" })
