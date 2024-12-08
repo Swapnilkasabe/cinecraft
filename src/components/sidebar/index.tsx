@@ -67,15 +67,22 @@ const Sidebar = () => {
         }}
       >
         <Hidden smDown>
-          <Typography
-            variant="h5"
-            component="h1"
-            my={2}
-            fontWeight={400}
-            fontSize={18}
-          >
-            Cinecraft
-          </Typography>
+          <Link to="/" style={{ textDecoration: "none", color: "inherit", display: "flex", alignItems: "center", gap: "8px" }}>
+            <img
+              src={require('../../assets/images/video.png')}
+              alt="Movie Icon"
+              style={{ width: "24px", height: "24px", filter: "invert(1)" }}
+            />
+            <Typography
+              variant="h5"
+              component="h1"
+              my={2}
+              fontWeight={400}
+              fontSize={18}
+            >
+              CineCraft
+            </Typography>
+          </Link>
         </Hidden>
 
         <Box
