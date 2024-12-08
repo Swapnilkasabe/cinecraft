@@ -19,12 +19,14 @@ const Layout = ({ children }: LayoutProps) => {
         color: "white",
         padding: 3,
         gap: 3,
-        overflowY: "hidden",
+        overflowY: "auto",
         height: "100vh",
+        scrollbarWidth: "thin",
+        scrollbarColor: "#888 #10141F"
       }}
     >
       <Sidebar />
-      <Box sx={{ width: "100%", overflowY: "scroll" }}>{children}</Box>
+      <Box sx={{ width: "100%", height: "100vh", overflowY: "auto"}}>{children}</Box>
     </Box>
   );
 };

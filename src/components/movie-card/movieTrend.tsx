@@ -91,7 +91,7 @@ const MovieTrendCard = ({ movie }: MovieTrendCardProps) => {
         >
           <Box
             sx={{
-              p: "1rem",
+              p: "0.2rem",
               backgroundColor: "black",
               borderRadius: "100%",
               cursor: "pointer",

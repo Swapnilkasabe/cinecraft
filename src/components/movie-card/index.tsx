@@ -108,7 +108,7 @@ const MovieCard = ({ movie }: MovieCardProps) => {
             >
               <Box
                 sx={{
-                  p: '1rem',
+                  p: '0.2rem',
                   backgroundColor: 'black',
                   borderRadius: '100%',
                   cursor: 'pointer',
