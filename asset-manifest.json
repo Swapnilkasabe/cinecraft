@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cinecraft/static/css/main.40986bc9.css",
-    "main.js": "/cinecraft/static/js/main.f9695885.js",
+    "main.js": "/cinecraft/static/js/main.eaa7358b.js",
     "static/js/453.d1787e51.chunk.js": "/cinecraft/static/js/453.d1787e51.chunk.js",
     "static/media/video.png": "/cinecraft/static/media/video.52535072f84ae498ac6f.png",
     "index.html": "/cinecraft/index.html",
     "main.40986bc9.css.map": "/cinecraft/static/css/main.40986bc9.css.map",
-    "main.f9695885.js.map": "/cinecraft/static/js/main.f9695885.js.map",
+    "main.eaa7358b.js.map": "/cinecraft/static/js/main.eaa7358b.js.map",
     "453.d1787e51.chunk.js.map": "/cinecraft/static/js/453.d1787e51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40986bc9.css",
-    "static/js/main.f9695885.js"
+    "static/js/main.eaa7358b.js"
   ]
 }
